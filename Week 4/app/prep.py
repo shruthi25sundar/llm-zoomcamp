@@ -94,7 +94,7 @@ def main():
     model = load_model()
     es_client = setup_elasticsearch()
     index_documents(es_client, documents, model)
-    you may consider to comment <end>
+    # you may consider to comment <end>
 
     print("Initializing database...")
     init_db()
